@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+.container {
+	position: absolute;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+input {
+	text-align: center;
+	width: 100%;
+	font-size: 36px;
+	font-weight: 100;
+	color: #333;
+	padding: 5px;
+	margin: 25px 0;
+	border: none;
+	border-bottom: 1px solid #333;
+	outline: none;
+}
+input::placeholder {
+	font-size: 24px;
+}
+#goal {
+	text-align: center;
+	width: 100%;
+	font-size: 24px;
+	color: #333;
+}
+h1 {
+	font-weight: 100;
+	margin: 0 50px 50px 50px;
+}
